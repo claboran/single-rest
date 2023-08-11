@@ -5,6 +5,11 @@ import org.springframework.context.ApplicationContextInitializer
 import org.springframework.context.ConfigurableApplicationContext
 import org.testcontainers.containers.PostgreSQLContainer
 
+/**
+ * Test container initializer.
+ * This class is used to initialize the test container
+ * for testing purposes.
+ */
 class DbContainerInitializer : ApplicationContextInitializer<ConfigurableApplicationContext> {
 
     override fun initialize(applicationContext: ConfigurableApplicationContext) {

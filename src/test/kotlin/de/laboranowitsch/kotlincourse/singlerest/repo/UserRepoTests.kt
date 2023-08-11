@@ -1,4 +1,4 @@
-package de.laboranowitsch.kotlincourse.singlerest
+package de.laboranowitsch.kotlincourse.singlerest.repo
 
 import de.laboranowitsch.kotlincourse.singlerest.logutil.LoggingAware
 import de.laboranowitsch.kotlincourse.singlerest.logutil.logger

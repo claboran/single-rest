@@ -38,4 +38,13 @@ Flyway is used to manage the database migrations for tests and the application
     [x] Fly Data Fixtures for tests
 
 ## To be continued
-    ???
+    [ ] Build a full Rest API
+
+## Database migration
+
+Database migrations are managed by Flyway. The migrations are located in the `src/main/resources/db/migration` folder.
+To seed the database with test data, the migrations are located in the `src/test/resources/db/data` folder.
+These migrations are only executed when running the tests.
+```properties
+spring.flyway.locations=classpath:db/migration, classpath:db/data
+```

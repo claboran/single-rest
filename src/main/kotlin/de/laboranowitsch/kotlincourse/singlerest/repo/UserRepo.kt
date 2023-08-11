@@ -1,4 +1,4 @@
-package de.laboranowitsch.kotlincourse.singlerest
+package de.laboranowitsch.kotlincourse.singlerest.repo
 
 import de.laboranowitsch.kotlincourse.singlerest.entity.User
 import org.springframework.data.repository.CrudRepository
